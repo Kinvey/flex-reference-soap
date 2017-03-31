@@ -90,7 +90,8 @@ function getHCPCS(HCPC, callback) {
         callback(null, parsedResult.NewDataSet.Table));
     });
   });
-}```
+}
+```
 
 Finally, the transformer is called to return the result:
 
